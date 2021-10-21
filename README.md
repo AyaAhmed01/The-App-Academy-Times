@@ -19,3 +19,5 @@ A single homepage with main content, search modal, sections sidebar, main naviga
 |   +-- _sections_sidebar.scss
 +-- application.scss
 ```
+### Page view
+![image](https://user-images.githubusercontent.com/89776991/138362864-89d78f1d-c9d4-47ee-bbb0-1a974935dea7.png)
