@@ -19,6 +19,28 @@
 	z-index: 1;
 	box-shadow: 4px 0 6px 1px rgba(0,0,0,0.1);
 
+	> ul > li:nth-child(2n):after,
+	> ul > li:nth-child(2n):before {
+		content: "";
+		position: absolute;
+		right: 0;
+		top: 7px;
+		border-left: 5px solid $light-gray;
+		border-top: 5px solid transparent;
+		border-bottom: 5px solid transparent;
+		width: 0;
+		height: 0;
+	}
+
+
+	> ul {
+		> li:nth-child(2n):before {
+			right: 2px;
+			border-left: 5px solid white;
+			z-index: 1;      
+		}
+	}
+
 	ul {
 		padding: 10px 20px 20px 20px;
 		width: 100%;
@@ -56,6 +78,27 @@
 			top: -25px;
 		}
 
+		ul:before {
+			display: block;
+			content: '';
+			border-right: 21px solid $light-gray;
+			border-top: 21px solid transparent;
+			border-bottom: 21px solid transparent;
+			position: absolute;
+			left: -22px;
+			top: 15px;
+		}
+
+		ul:after {
+			display: block;
+			content: '';
+			border-right: 21px solid white;
+			border-top: 21px solid transparent;
+			border-bottom: 21px solid transparent;
+			position: absolute;
+			left: -20px;
+			top: 15px;
+		}
 	}
 
 	.dropdown:hover {
