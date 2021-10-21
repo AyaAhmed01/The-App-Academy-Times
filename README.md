@@ -1,24 +1,21 @@
-# README
+# App Academy Times
+A single homepage with main content, search modal, sections sidebar, main navigation and sections navigation that imitates the New York Times homepage.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Project structure
+```
+/app/assets/stylesheets
++-- base
+|   +-- colors.scss
+|   +-- fonts.scss
+|   +-- layout.scss
+|   +-- reset.scss
++-- components
+|   +-- _gear_dropdown.scss
+|   +-- _main_content.scss
+|   +-- _main_nav.scss
+|   +-- _masthead.scss
+|   +-- _search_modal.scss
+|   +-- _sections_nav.scss
+|   +-- _sections_sidebar.scss
++-- application.scss
+```
