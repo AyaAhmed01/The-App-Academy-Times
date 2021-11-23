@@ -19,7 +19,7 @@ A single responsive homepage with main content section, search modal, sections s
 |   +-- _sections_sidebar.css.scss
 +-- application.css.scss
 ```
-##### live version
+### Live version
 [heroku](https://the-app-academy-times.herokuapp.com/)
 
 
