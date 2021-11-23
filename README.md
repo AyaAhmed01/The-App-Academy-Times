@@ -1,5 +1,5 @@
 # App Academy Times
-A single responsive homepage with main content, search modal, sections sidebar, main navigation and sections navigation that imitates the New York Times homepage.
+A single responsive homepage with main content section, search modal, sections sidebar, main navigation and sections navigation that imitates the New York Times homepage.
 
 ### Project structure
 ```
@@ -19,5 +19,7 @@ A single responsive homepage with main content, search modal, sections sidebar, 
 |   +-- _sections_sidebar.css.scss
 +-- application.css.scss
 ```
+##### live version
+[heroku](https://the-app-academy-times.herokuapp.com/)
 
 
